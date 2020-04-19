@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    stream:
+      bindings:
+        helloChannel:
+          destination: hellos
+  rabbitmq:
+    addresses: amqp://livsvibc:xkRfT_-_3l9JGJD0cQA1VNy8lELS9rsB@hawk.rmq.cloudamqp.com/livsvibc
